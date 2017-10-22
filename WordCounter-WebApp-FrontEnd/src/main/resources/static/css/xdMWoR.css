@@ -1,0 +1,94 @@
+body {
+  background: #303030;
+  color: #F5F5F5;
+}
+
+.row {
+  margin: 0.5rem;
+}
+
+.shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.shadow:hover {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+}
+
+.shadow-nohover {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box {
+  background: #424242;
+  border-radius: 0.3rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.card {
+  background: #424242;
+  border: 0px;
+  border-radius: 0.3rem;
+  width: 100%;
+}
+
+.card-header {
+  background: #212121;
+}
+.card-header::before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  border: 1rem solid transparent;
+  border-right: 1.25rem solid #212121;
+}
+
+.list-group {
+  background: #212121;
+  border-radius: 0.3rem;
+}
+
+.list-group-item {
+  background: #424242;
+  border-radius: 0.3rem;
+}
+
+
+.tag {
+  position: relative;
+  padding: 12px 25px;
+  border: solid #212121;
+  border-width: 1px 1px 1px 0;
+  border-radius: 0 12.5px 12.5px 0;
+  background-image: linear-gradient(#212121, #303030);
+  box-shadow: 2px 2px 1px -1px rgba(0, 0, 0, 0.2), 2px 2px 1px -1px rgba(0, 0, 0, 0.14), 2px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tag::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #212121;
+  border-radius: 15px 0 0 0;
+  background-image: linear-gradient(#212121, #303030);
+  z-index: -1;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  transform: translate(-51px, -1px) scale(0.70711, 0.70711) rotateZ(-45deg);
+}
+.tag::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #212121;
+  border-radius: 50%;
+  background: #303030;
+  top: 18px;
+  left: -3px;
+  width: 13px;
+  height: 13px;
+}
+.tag:hover {
+  box-shadow: 16px 12px 6px rgba(0, 0, 0, 0.2), 12px 8px 12px rgba(0, 0, 0, 0.14), 4px 4px 4px rgba(0, 0, 0, 0.12);
+}
