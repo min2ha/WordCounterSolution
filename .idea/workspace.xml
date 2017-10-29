@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57039dc1-40ce-468b-908f-18aadd1b6880" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/advice/JsonpControllerAdvice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/advice/JsonpControllerAdvice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/logback.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/upload.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/model/WordModel.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/FileUploadServiceApplication.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadServiceApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/IndexController.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/IndexController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/RestUploadController.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/RestUploadController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/exception/CustomError.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/exception/CustomError.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/exception/RestGlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/exception/RestGlobalExceptionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/model/FileModel.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/model/FileModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/model/UploadModel.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/model/UploadModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/service/UploadService.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/service/UploadService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/test/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/FileUploadServiceApplicationTests.java" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/test/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadServiceApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/WordcounterServicesApplication.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/WordcounterServicesApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/controller/RestApiController.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/RestApiController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/model/UploadModel.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/UploadModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounter.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounterServiceImpl.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounterServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/util/CustomErrorType.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/util/CustomErrorType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/test/java/net/droidpla/wordcounter/restws/wordcounterservices/WordcounterServicesApplicationTests.java" afterPath="$PROJECT_DIR$/WordCounter-service-BackEnd/src/test/java/net/droidpla/wordcounter/restws/wordcounterservice/WordcounterServicesApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/static/js/main.js" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/templates/upload.html" afterPath="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/templates/upload.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java" afterPath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/main.js" afterPath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/FileUpload-service-BackEnd/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,13 +44,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/IndexController.java">
+        <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,6 +60,26 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>input</find>
+      <find>mapWordCounts</find>
+      <find>processFile</find>
+      <find>jquery</find>
+      <find>btnSubmit2</find>
+      <find>btnSubmitClearResults</find>
+      <find>top20</find>
+      <find>alert</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,6 +98,29 @@
         <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/RestUploadController.java" />
         <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/service/UploadService.java" />
         <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/logback.xml" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounter.java" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/WordcounterServicesApplication.java" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/util/CustomErrorType.java" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/postrequest.js" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/upload.html" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/templates/upload.html" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/index2.html" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/getrequest.js" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/advice/JsonpControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/advice/JsonpControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/StatsModel.java" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/RestUploadController.java" />
+        <option value="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/RestApiController.java" />
       </list>
     </option>
   </component>
@@ -59,6 +132,118 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-WebApp-FronEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-WebApp-FronEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-WebApp-FronEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-WebApp-FronEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-RESTService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-RESTService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-RESTService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="WordCounter-RESTService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -83,12 +268,68 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FileUpload-RESRService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FileUpload-RESRService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FileUpload-RESRService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="FileUpload-RESRService-BackEnd" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,6 +412,104 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordCounter-WebApp-FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordCounter-WebApp-FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordCounter-WebApp-FrontEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -289,34 +628,8 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web-wordcounter-solution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-wordcounter-solution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordCounter-service-BackEnd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wordcounterservices" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,7 +659,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wordcounterservices" />
+              <option name="myItemId" value="wordcounterservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-wordcounter-solution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordCounter-service-BackEnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordcounterservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -380,7 +723,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wordcounterservices" />
+              <option name="myItemId" value="wordcounterservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -414,7 +757,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wordcounterservices" />
+              <option name="myItemId" value="wordcounterservice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -571,40 +914,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-wordcounter-solution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-wordcounter-solution" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FileUpload-service-BackEnd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FileUploadService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -655,6 +964,18 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.droidpla.wordcounter.restws.wordcounterservice.controller.advice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js" />
+      <recent name="$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -906,6 +1227,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1056,6 +1378,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1083,44 +1411,46 @@
       <option name="presentableId" value="Default" />
       <updated>1508672366663</updated>
       <workItem from="1508672370510" duration="1502000" />
+      <workItem from="1508709530015" duration="5508000" />
+      <workItem from="1509015667683" duration="63011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1711000" />
+    <option name="totallyTimeSpent" value="70230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25852272" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36130866" sideWeight="0.45546874" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2109375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30014226" sideWeight="0.5445312" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21337126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26484376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1134,273 +1464,175 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <marker date="1508671889000" expanded="true" signature="104:1138" ph="..." />
-            <marker date="1508671889000" expanded="true" signature="470:700" ph="..." />
-            <marker date="1508671889000" expanded="true" signature="718:935" ph="..." />
-            <marker date="1508671889000" expanded="true" signature="954:1127" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508671898000" expanded="true" signature="143:2062" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="553:730" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="751:1817" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="772:917" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="938:1082" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1103:1242" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1264:1435" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1456:1628" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1649:1795" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1830:2049" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1848:2036" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1869:2017" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508671923000" expanded="true" signature="143:2063" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="571:727" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="745:1473" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="760:880" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="895:1010" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1026:1164" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1179:1318" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1334:1456" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1483:2050" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1495:2040" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1507:1622" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1643:2027" ph="..." />
-            <marker date="1508671923000" expanded="true" signature="1835:2005" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <marker date="1508672798000" expanded="true" signature="143:1847" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="584:761" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="778:1662" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="799:944" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="959:1079" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1094:1209" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1225:1363" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1378:1517" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1532:1645" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1672:1834" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1684:1824" ph="..." />
-            <marker date="1508672798000" expanded="true" signature="1696:1811" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/model/UploadModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1508501748000" expanded="true" signature="142:185" ph="/**...*/" />
-            <marker date="1508501748000" expanded="false" signature="314:325" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="343:349" ph=" }" />
-            <marker date="1508501748000" expanded="false" signature="399:410" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="439:445" ph=" }" />
-            <marker date="1508501748000" expanded="false" signature="484:495" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="508:514" ph=" }" />
-            <marker date="1508501748000" expanded="false" signature="563:574" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="593:599" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/model/FileModel.java">
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/model/FileModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1508589826000" expanded="true" signature="85:128" ph="/**...*/" />
-            <marker date="1508589826000" expanded="false" signature="294:305" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="317:323" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="361:372" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="389:395" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="424:435" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="447:453" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="491:502" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="519:525" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="559:570" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="587:593" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="641:652" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="679:685" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="721:732" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="751:757" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="809:820" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="851:857" ph=" }" />
+            <marker date="1508934586000" expanded="true" signature="67:110" ph="/**...*/" />
+            <marker date="1508934586000" expanded="false" signature="276:287" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="299:305" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="343:354" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="371:377" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="406:417" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="429:435" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="473:484" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="501:507" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="541:552" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="569:575" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="623:634" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="661:667" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="703:714" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="733:739" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="791:802" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="833:839" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/model/WordModel.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/WordModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1508592191000" expanded="true" signature="68:111" ph="/**...*/" />
-            <marker date="1508592191000" expanded="true" signature="141:156" ph="//..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/model/UploadModel.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/UploadModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <marker date="1508421624000" expanded="false" signature="253:264" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="282:288" ph=" }" />
-            <marker date="1508421624000" expanded="false" signature="338:349" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="378:384" ph=" }" />
-            <marker date="1508421624000" expanded="false" signature="423:434" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="447:453" ph=" }" />
-            <marker date="1508421624000" expanded="false" signature="502:513" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="532:538" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="252:263" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="281:287" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="337:348" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="377:383" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="422:433" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="446:452" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="501:512" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="531:537" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounter.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
-            <marker date="1508602534000" expanded="false" signature="77:185" ph="..." />
-            <marker date="1508602534000" expanded="true" signature="187:230" ph="/**...*/" />
+            <marker date="1509097014000" expanded="false" signature="76:211" ph="..." />
+            <marker date="1509097014000" expanded="true" signature="213:256" ph="/**...*/" />
+            <marker date="1509097014000" expanded="true" signature="602:670" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/FileUploadServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <marker date="1508518246000" expanded="false" signature="86:198" ph="..." />
-            <marker date="1508518246000" expanded="false" signature="368:373" ph=" { " />
-            <marker date="1508518246000" expanded="false" signature="437:440" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="68:180" ph="..." />
+            <marker date="1508934586000" expanded="false" signature="350:355" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="419:422" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <marker date="1508934586000" expanded="true" signature="79:237" ph="..." />
+            <marker date="1508934586000" expanded="true" signature="412:475" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/RestUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <marker date="1509320149000" expanded="true" signature="79:794" ph="..." />
+            <marker date="1509320149000" expanded="true" signature="796:839" ph="/**...*/" />
+            <marker date="1509320149000" expanded="true" signature="840:879" ph="@{...}" />
+            <marker date="1509320149000" expanded="true" signature="1179:1260" ph="/**...*/" />
+            <marker date="1509320149000" expanded="true" signature="1466:2296" ph="{...}" />
+            <marker date="1509320149000" expanded="true" signature="2303:2367" ph="/**...*/" />
+            <marker date="1509320149000" expanded="true" signature="2507:2648" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="79" />
+          <folding>
+            <marker date="1509174467000" expanded="true" signature="76:492" ph="..." />
+            <marker date="1509174467000" expanded="true" signature="494:537" ph="/**...*/" />
+            <marker date="1509174467000" expanded="true" signature="782:858" ph="/**...*/" />
+            <marker date="1509174467000" expanded="true" signature="918:1363" ph="{...}" />
+            <marker date="1509174467000" expanded="true" signature="1369:1512" ph="/**...*/" />
+            <marker date="1509174467000" expanded="true" signature="1617:1970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/RestApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <marker date="1509318735000" expanded="true" signature="76:654" ph="..." />
+            <marker date="1509318735000" expanded="true" signature="656:699" ph="/**...*/" />
+            <marker date="1509318735000" expanded="true" signature="1020:2667" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="1879:2312" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="2797:3574" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="3690:4187" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="4252:4454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/WordcounterServicesApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1509097845000" expanded="false" signature="68:242" ph="..." />
+            <marker date="1509097845000" expanded="true" signature="244:287" ph="/**...*/" />
+            <marker date="1509097845000" expanded="false" signature="556:561" ph=" { " />
+            <marker date="1509097845000" expanded="false" signature="627:630" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/RestUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="46" />
-          <folding>
-            <marker date="1508673498000" expanded="true" signature="97:848" ph="..." />
-            <marker date="1508673498000" expanded="true" signature="850:893" ph="/**...*/" />
-            <marker date="1508673498000" expanded="true" signature="894:933" ph="@{...}" />
-            <marker date="1508673498000" expanded="true" signature="1356:1892" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="2097:2927" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="3055:3419" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="3614:3755" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="79" />
-          <folding>
-            <marker date="1508673498000" expanded="true" signature="94:510" ph="..." />
-            <marker date="1508673498000" expanded="true" signature="512:555" ph="/**...*/" />
-            <marker date="1508673498000" expanded="true" signature="855:1300" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="1425:1778" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="1822:2031" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/controller/RestApiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="38" />
-          <folding>
-            <marker date="1508672996000" expanded="false" signature="81:798" ph="..." />
-            <marker date="1508672996000" expanded="true" signature="800:839" ph="@{...}" />
-            <marker date="1508672996000" expanded="true" signature="1315:2116" ph="{...}" />
-            <marker date="1508672996000" expanded="true" signature="1838:2011" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
-          <folding>
-            <marker date="1508673498000" expanded="true" signature="77:592" ph="..." />
-            <marker date="1508673498000" expanded="true" signature="594:637" ph="/**...*/" />
-            <marker date="1508673498000" expanded="true" signature="823:843" ph="@{...}" />
-            <marker date="1508673498000" expanded="true" signature="952:2996" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="1804:2237" ph="{...}" />
-            <marker date="1508673498000" expanded="false" signature="3050:3061" ph=" { " />
-            <marker date="1508673498000" expanded="false" signature="3073:3079" ph=" }" />
-            <marker date="1508673498000" expanded="true" signature="3137:3145" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/WordcounterServicesApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1508605228000" expanded="false" signature="69:243" ph="..." />
-            <marker date="1508605228000" expanded="true" signature="245:399" ph="@{...}" />
-            <marker date="1508605228000" expanded="false" signature="486:491" ph=" { " />
-            <marker date="1508605228000" expanded="false" signature="557:560" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1508624119000" expanded="false" signature="85:243" ph="..." />
-            <marker date="1508624119000" expanded="true" signature="418:491" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1410,27 +1642,6 @@
             <marker date="1508671889000" expanded="true" signature="470:700" ph="..." />
             <marker date="1508671889000" expanded="true" signature="718:935" ph="..." />
             <marker date="1508671889000" expanded="true" signature="954:1127" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1508671898000" expanded="true" signature="143:2062" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="553:730" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="751:1817" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="772:917" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="938:1082" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1103:1242" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1264:1435" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1456:1628" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1649:1795" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1830:2049" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1848:2036" ph="..." />
-            <marker date="1508671898000" expanded="true" signature="1869:2017" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1457,10 +1668,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/exception/CustomError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/wordcounter-webapp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="55">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <marker date="1508672798000" expanded="true" signature="143:1847" ph="..." />
             <marker date="1508672798000" expanded="true" signature="584:761" ph="..." />
@@ -1478,189 +1703,557 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/model/UploadModel.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           <folding>
-            <marker date="1508501748000" expanded="true" signature="142:185" ph="/**...*/" />
-            <marker date="1508501748000" expanded="false" signature="314:325" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="343:349" ph=" }" />
-            <marker date="1508501748000" expanded="false" signature="399:410" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="439:445" ph=" }" />
-            <marker date="1508501748000" expanded="false" signature="484:495" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="508:514" ph=" }" />
-            <marker date="1508501748000" expanded="false" signature="563:574" ph=" { " />
-            <marker date="1508501748000" expanded="false" signature="593:599" ph=" }" />
+            <marker date="1508934694000" expanded="true" signature="53:716" ph="..." />
+            <marker date="1508934694000" expanded="true" signature="127:338" ph="..." />
+            <marker date="1508934694000" expanded="true" signature="189:322" ph="..." />
+            <marker date="1508934694000" expanded="true" signature="211:304" ph="..." />
+            <marker date="1508934694000" expanded="true" signature="416:467" ph="..." />
+            <marker date="1508934694000" expanded="true" signature="572:623" ph="..." />
+            <marker date="1508934694000" expanded="true" signature="649:698" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/model/FileModel.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/WordcounterServicesApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
-            <marker date="1508589826000" expanded="true" signature="85:128" ph="/**...*/" />
-            <marker date="1508589826000" expanded="false" signature="294:305" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="317:323" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="361:372" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="389:395" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="424:435" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="447:453" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="491:502" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="519:525" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="559:570" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="587:593" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="641:652" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="679:685" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="721:732" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="751:757" ph=" }" />
-            <marker date="1508589826000" expanded="false" signature="809:820" ph=" { " />
-            <marker date="1508589826000" expanded="false" signature="851:857" ph=" }" />
+            <marker date="1509097845000" expanded="false" signature="68:242" ph="..." />
+            <marker date="1509097845000" expanded="true" signature="244:287" ph="/**...*/" />
+            <marker date="1509097845000" expanded="false" signature="556:561" ph=" { " />
+            <marker date="1509097845000" expanded="false" signature="627:630" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/model/WordModel.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/util/CustomErrorType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <marker date="1508592191000" expanded="true" signature="68:111" ph="/**...*/" />
-            <marker date="1508592191000" expanded="true" signature="141:156" ph="//..." />
+            <marker date="1509097845000" expanded="false" signature="178:188" ph=" { " />
+            <marker date="1509097845000" expanded="false" signature="221:227" ph=" }" />
+            <marker date="1509097845000" expanded="false" signature="263:274" ph=" { " />
+            <marker date="1509097845000" expanded="false" signature="294:300" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/model/UploadModel.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/css/xdMWoR.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508421624000" expanded="false" signature="253:264" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="282:288" ph=" }" />
-            <marker date="1508421624000" expanded="false" signature="338:349" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="378:384" ph=" }" />
-            <marker date="1508421624000" expanded="false" signature="423:434" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="447:453" ph=" }" />
-            <marker date="1508421624000" expanded="false" signature="502:513" ph=" { " />
-            <marker date="1508421624000" expanded="false" signature="532:538" ph=" }" />
+            <marker date="1508465254000" expanded="true" signature="5:49" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="56:77" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="87:277" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="292:425" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="443:633" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="640:724" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="732:813" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="828:854" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="876:1004" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="1018:1069" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="1088:1139" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="1147:1529" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="1543:1829" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="1842:2014" ph="{...}" />
+            <marker date="1508465254000" expanded="true" signature="2026:2145" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounter.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508602534000" expanded="false" signature="77:185" ph="..." />
-            <marker date="1508602534000" expanded="true" signature="187:230" ph="/**...*/" />
+            <marker date="1508622590000" expanded="true" signature="53:697" ph="..." />
+            <marker date="1508622590000" expanded="true" signature="127:338" ph="..." />
+            <marker date="1508622590000" expanded="true" signature="189:322" ph="..." />
+            <marker date="1508622590000" expanded="true" signature="211:304" ph="..." />
+            <marker date="1508622590000" expanded="true" signature="416:467" ph="..." />
+            <marker date="1508622590000" expanded="true" signature="553:604" ph="..." />
+            <marker date="1508622590000" expanded="true" signature="630:679" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/FileUploadServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <marker date="1508518246000" expanded="false" signature="86:198" ph="..." />
-            <marker date="1508518246000" expanded="false" signature="368:373" ph=" { " />
-            <marker date="1508518246000" expanded="false" signature="437:440" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="68:180" ph="..." />
+            <marker date="1508934586000" expanded="false" signature="350:355" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="419:422" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/RestUploadController.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="55" column="46" lean-forward="true" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="46" />
-          <folding>
-            <marker date="1508673498000" expanded="true" signature="97:848" ph="..." />
-            <marker date="1508673498000" expanded="true" signature="850:893" ph="/**...*/" />
-            <marker date="1508673498000" expanded="true" signature="894:933" ph="@{...}" />
-            <marker date="1508673498000" expanded="true" signature="1356:1892" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="2097:2927" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="3055:3419" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="3614:3755" ph="{...}" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/service/UploadService.java">
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="79" />
+        <state relative-caret-position="300">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <marker date="1508673498000" expanded="true" signature="94:510" ph="..." />
-            <marker date="1508673498000" expanded="true" signature="512:555" ph="/**...*/" />
-            <marker date="1508673498000" expanded="true" signature="855:1300" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="1425:1778" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="1822:2031" ph="{...}" />
+            <marker date="1508934625000" expanded="true" signature="53:716" ph="..." />
+            <marker date="1508934625000" expanded="true" signature="127:338" ph="..." />
+            <marker date="1508934625000" expanded="true" signature="189:322" ph="..." />
+            <marker date="1508934625000" expanded="true" signature="211:304" ph="..." />
+            <marker date="1508934625000" expanded="true" signature="416:467" ph="..." />
+            <marker date="1508934625000" expanded="true" signature="572:623" ph="..." />
+            <marker date="1508934625000" expanded="true" signature="649:698" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/controller/RestApiController.java">
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/advice/JsonpControllerAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <marker date="1508672996000" expanded="false" signature="81:798" ph="..." />
-            <marker date="1508672996000" expanded="true" signature="800:839" ph="@{...}" />
-            <marker date="1508672996000" expanded="true" signature="1315:2116" ph="{...}" />
-            <marker date="1508672996000" expanded="true" signature="1838:2011" ph="{...}" />
+            <marker date="1509187148000" expanded="true" signature="130:281" ph="..." />
+            <marker date="1509187148000" expanded="true" signature="413:424" ph=" { " />
+            <marker date="1509187148000" expanded="true" signature="442:448" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/service/WordCounterServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="66" column="25" lean-forward="false" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        <state relative-caret-position="134">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="30" />
           <folding>
-            <marker date="1508673498000" expanded="true" signature="77:592" ph="..." />
-            <marker date="1508673498000" expanded="true" signature="594:637" ph="/**...*/" />
-            <marker date="1508673498000" expanded="true" signature="823:843" ph="@{...}" />
-            <marker date="1508673498000" expanded="true" signature="952:2996" ph="{...}" />
-            <marker date="1508673498000" expanded="true" signature="1804:2237" ph="{...}" />
-            <marker date="1508673498000" expanded="false" signature="3050:3061" ph=" { " />
-            <marker date="1508673498000" expanded="false" signature="3073:3079" ph=" }" />
-            <marker date="1508673498000" expanded="true" signature="3137:3145" ph="{...}" />
+            <marker date="1508671898000" expanded="true" signature="143:2062" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="553:730" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="751:1817" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="772:917" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="938:1082" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1103:1242" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1264:1435" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1456:1628" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1649:1795" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1830:2049" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1848:2036" ph="..." />
+            <marker date="1508671898000" expanded="true" signature="1869:2017" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservices/WordcounterServicesApplication.java">
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="30" column="58" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <marker date="1509235870000" expanded="true" signature="30:563" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="76:201" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="249:375" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="428:559" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="595:1702" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="817:1698" ph="{&quot;type&quot;: &quot;POST&quot;...}" />
+            <marker date="1509235870000" expanded="true" signature="1019:1146" ph="//..." />
+            <marker date="1509235870000" expanded="true" signature="1361:1509" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="1539:1692" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="1737:3200" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="1840:2408" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509235870000" expanded="true" signature="1981:2193" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="2227:2398" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="2454:3194" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="2535:3182" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509235870000" expanded="true" signature="2695:2934" ph="{...}" />
+            <marker date="1509235870000" expanded="true" signature="2972:3168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/advice/JsonpControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1509226818000" expanded="false" signature="130:281" ph="..." />
+            <marker date="1509226818000" expanded="false" signature="413:424" ph=" { " />
+            <marker date="1509226818000" expanded="false" signature="442:448" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/getrequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/resources/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
+          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="70" />
+          <folding>
+            <marker date="1509175166000" expanded="true" signature="57:1163" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="64:1155" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="196:329" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="372:524" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="565:749" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="782:819" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="863:901" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="953:996" ph="..." />
+            <marker date="1509175166000" expanded="true" signature="1029:1087" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/postrequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="63" column="185" lean-forward="false" selection-start-line="63" selection-start-column="185" selection-end-line="63" selection-end-column="185" />
+          <folding>
+            <marker date="1509317838000" expanded="true" signature="31:9165" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="40:631" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="640:9156" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1333:8985" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1358:1881" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1396:1698" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1736:1870" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1904:2482" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1936:2110" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="1989:2095" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2141:2294" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2194:2279" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2325:2470" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2378:2455" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2506:4433" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2543:2816" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2853:3876" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2936:3568" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="2977:3548" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="3484:3509" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="3728:3753" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="3913:4422" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="3960:4405" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="4456:8387" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="4493:4879" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="4916:7273" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="5114:5139" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="5434:5461" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="5462:5543" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="5502:5524" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="5721:5746" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6084:6111" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6112:6193" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6152:6174" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6369:6394" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6599:6626" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6627:6708" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6667:6689" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="6880:6905" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7149:7176" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7177:7258" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7217:7239" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7310:8376" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7356:8361" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7686:7856" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="7921:8101" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8166:8342" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8413:8662" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8443:8543" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8573:8652" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8685:8841" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8749:8762" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8819:8832" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8865:8977" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="8913:8966" ph="..." />
+            <marker date="1509317838000" expanded="true" signature="9023:9085" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/StatsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/WordModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="92" column="122" lean-forward="false" selection-start-line="92" selection-start-column="122" selection-end-line="92" selection-end-column="122" />
+          <folding>
+            <marker date="1509318735000" expanded="true" signature="76:654" ph="..." />
+            <marker date="1509318735000" expanded="true" signature="656:699" ph="/**...*/" />
+            <marker date="1509318735000" expanded="true" signature="1020:2667" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="1879:2312" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="2797:3574" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="3690:4187" ph="{...}" />
+            <marker date="1509318735000" expanded="true" signature="4252:4454" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/service/WordCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1509097014000" expanded="false" signature="76:211" ph="..." />
+            <marker date="1509097014000" expanded="true" signature="213:256" ph="/**...*/" />
+            <marker date="1509097014000" expanded="true" signature="602:670" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/model/UploadModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1508934796000" expanded="false" signature="252:263" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="281:287" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="337:348" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="377:383" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="422:433" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="446:452" ph=" }" />
+            <marker date="1508934796000" expanded="false" signature="501:512" ph=" { " />
+            <marker date="1508934796000" expanded="false" signature="531:537" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1509174467000" expanded="true" signature="76:492" ph="..." />
+            <marker date="1509174467000" expanded="true" signature="494:537" ph="/**...*/" />
+            <marker date="1509174467000" expanded="true" signature="782:858" ph="/**...*/" />
+            <marker date="1509174467000" expanded="true" signature="918:1363" ph="{...}" />
+            <marker date="1509174467000" expanded="true" signature="1369:1512" ph="/**...*/" />
+            <marker date="1509174467000" expanded="true" signature="1617:1970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/model/UploadModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1508934586000" expanded="true" signature="124:167" ph="/**...*/" />
+            <marker date="1508934586000" expanded="false" signature="296:307" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="325:331" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="381:392" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="421:427" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="466:477" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="490:496" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="545:556" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="575:581" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/model/FileModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1508934586000" expanded="true" signature="67:110" ph="/**...*/" />
+            <marker date="1508934586000" expanded="false" signature="276:287" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="299:305" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="343:354" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="371:377" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="406:417" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="429:435" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="473:484" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="501:507" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="541:552" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="569:575" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="623:634" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="661:667" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="703:714" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="733:739" ph=" }" />
+            <marker date="1508934586000" expanded="false" signature="791:802" ph=" { " />
+            <marker date="1508934586000" expanded="false" signature="833:839" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <marker date="1509320073000" expanded="true" signature="30:1229" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="123:191" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="239:336" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="439:590" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="653:776" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="845:1024" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="1089:1224" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="1262:2442" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="1482:2438" ph="{&quot;type&quot;: &quot;POST&quot;...}" />
+            <marker date="1509320073000" expanded="true" signature="1628:1691" ph="//..." />
+            <marker date="1509320073000" expanded="true" signature="1758:1885" ph="//..." />
+            <marker date="1509320073000" expanded="true" signature="2100:2248" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="2278:2431" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="2474:3343" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="2534:3339" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509320073000" expanded="true" signature="2732:3141" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="2843:2941" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="3171:3333" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="3389:4156" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="3466:4147" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509320073000" expanded="true" signature="3693:3915" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="3949:4137" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="4209:5377" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="4291:5369" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509320073000" expanded="true" signature="4536:5133" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="4647:4895" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="5167:5359" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="5426:6184" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="5506:6180" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509320073000" expanded="true" signature="5733:5941" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="5971:6174" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="6235:6995" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="6311:6991" ph="{&quot;type&quot;: &quot;GET&quot;...}" />
+            <marker date="1509320073000" expanded="true" signature="6542:6751" ph="{...}" />
+            <marker date="1509320073000" expanded="true" signature="6781:6985" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/WordcounterWebAppFronEndApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <marker date="1508618116000" expanded="false" signature="74:186" ph="..." />
+            <marker date="1508618116000" expanded="false" signature="302:307" ph=" { " />
+            <marker date="1508618116000" expanded="false" signature="378:381" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1508605228000" expanded="false" signature="69:243" ph="..." />
-            <marker date="1508605228000" expanded="true" signature="245:399" ph="@{...}" />
-            <marker date="1508605228000" expanded="false" signature="486:491" ph=" { " />
-            <marker date="1508605228000" expanded="false" signature="557:560" ph=" }" />
+            <marker date="1508934586000" expanded="true" signature="79:237" ph="..." />
+            <marker date="1508934586000" expanded="true" signature="412:475" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/controller/RestUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <marker date="1509320149000" expanded="true" signature="79:794" ph="..." />
+            <marker date="1509320149000" expanded="true" signature="796:839" ph="/**...*/" />
+            <marker date="1509320149000" expanded="true" signature="840:879" ph="@{...}" />
+            <marker date="1509320149000" expanded="true" signature="1179:1260" ph="/**...*/" />
+            <marker date="1509320149000" expanded="true" signature="1466:2296" ph="{...}" />
+            <marker date="1509320149000" expanded="true" signature="2303:2367" ph="/**...*/" />
+            <marker date="1509320149000" expanded="true" signature="2507:2648" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordCounter-service-BackEnd/src/main/java/net/droidpla/wordcounter/restws/wordcounterservice/controller/RestApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding>
+            <marker date="1509320187000" expanded="false" signature="80:999" ph="..." />
+            <marker date="1509320187000" expanded="true" signature="1001:1044" ph="/**...*/" />
+            <marker date="1509320187000" expanded="true" signature="1045:1084" ph="@{...}" />
+            <marker date="1509320187000" expanded="true" signature="1427:1525" ph="/**...*/" />
+            <marker date="1509320187000" expanded="true" signature="1730:2944" ph="{...}" />
+            <marker date="1509320187000" expanded="true" signature="2315:2465" ph="//..." />
+            <marker date="1509320187000" expanded="true" signature="2555:2842" ph="{...}" />
+            <marker date="1509320187000" expanded="true" signature="3195:3974" ph="{...}" />
+            <marker date="1509320187000" expanded="true" signature="3292:3433" ph="//..." />
+            <marker date="1509320187000" expanded="true" signature="3792:3884" ph="//..." />
+            <marker date="1509320187000" expanded="true" signature="4221:4947" ph="{...}" />
+            <marker date="1509320187000" expanded="true" signature="5123:5750" ph="{...}" />
+            <marker date="1509320187000" expanded="true" signature="5219:5290" ph="//..." />
+            <marker date="1509320187000" expanded="true" signature="5290:5373" ph="{...}" />
+            <marker date="1509320187000" expanded="true" signature="5422:5458" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WordCounter-WebApp-FrontEnd/src/main/java/net/droidpla/wordcounter/WebApp/wordcounterWebAppFronEnd/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <marker date="1508624119000" expanded="false" signature="85:243" ph="..." />
-            <marker date="1508624119000" expanded="true" signature="418:491" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileUpload-service-BackEnd/src/main/java/net/droidpla/wordcounter/REST_WS/FileUploadService/FileUploadService/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1745,6 +2338,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

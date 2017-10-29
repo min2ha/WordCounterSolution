@@ -13,7 +13,7 @@
         <appender-ref ref="STDOUT"/>
     </logger>
 
-    <logger name="net.droidpla.wordcounter.REST_WS.FileUploadService" level="debug" additivity="false">
+    <logger name="net.droidpla.wordcounter.restws.wordcounterservice" level="debug" additivity="false">
         <appender-ref ref="STDOUT"/>
     </logger>
 

@@ -1,4 +1,4 @@
-package net.droidpla.wordcounter.WebApp.wordcounterWebAppFronEnd.controller;
+package net.droidpla.wordcounter.REST_WS.FileUploadService.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +12,7 @@ public class IndexController {
     @GetMapping("/")
     public String index() {
         logger.debug("index");
-        return "index";
+        return "upload";
     }
 
 }

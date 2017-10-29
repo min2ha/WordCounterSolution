@@ -1,17 +1,53 @@
 $(document).ready(function () {
 
+
+    //---------------- File Uploader REST WS
+
     $("#btnSubmit").click(function (event) {
-        //stop submit the form, we will post it manually.
+
         event.preventDefault();
         fire_ajax_submit();
     });
 
     $("#btnSubmit2").click(function (event) {
-        //stop submit the form, we will post it manually.
+
+        alert("File list");
         event.preventDefault();
         fire_ajax_submit2();
     });
+
+    //----------------- WordCouter REST WS
+
+    $("#btnSubmitClearResults").click(function (event) {
+
+        alert("Clear Results - delete files and NULL datastructures");
+        event.preventDefault();
+        fire_ajax_SubmitClearResults();
+    });
+
+    $("#btnSubmitResultsToListTop").click(function (event) {
+
+        alert("Map To Sorted List");
+        event.preventDefault();
+        fire_ajax_getMapToSortedListStatus();
+    });
+
+    $("#btnSubmitWordCountProcessStatus").click(function (event) {
+
+        alert("Word Count Process - create datastructure from all files in upload folder");
+        event.preventDefault();
+        fire_ajax_getWordCountProcessStatus();
+    });
+
+    $("#btnSubmitWriteResultsToFile").click(function (event) {
+
+        alert("Output To File - result.txt");
+        event.preventDefault();
+        fire_ajax_getResultOutputToFileStatus();
+    });
+
 });
+
 
 function fire_ajax_submit() {
     // Get form
@@ -27,6 +63,10 @@ function fire_ajax_submit() {
         type: "POST",
         enctype: 'multipart/form-data',
         url: "http://localhost:8833/fileuploadservice/api/upload/multi",
+
+        //jsonpCallback:'uploadFileMulti',
+        //dataType: 'jsonp',
+
         // url: "/api/upload/multi",
         data: data,
         //http://api.jquery.com/jQuery.ajax/
@@ -49,46 +89,158 @@ function fire_ajax_submit() {
             $("#btnSubmit").prop("disabled", false);
 
         }
+
     });
 }
 
-    function fire_ajax_submit2() {
 
-        // Get form
-        var form = $('#fileUploadForm2')[0];
+function fire_ajax_submit2() {
 
-        var data = new FormData(form);
+    $("#btnSubmit2").prop("disabled", true);
 
-        data.append("CustomField", "Testing file list");
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8833/fileuploadservice/api/getFileList",
+        jsonpCallback: 'getFileList',
+        dataType: 'jsonp',
 
-        $("#btnSubmit2").prop("disabled", true);
+        success: function (response) {
 
+                var trHTML = '<ul class="list-group">';
+                $.each(response, function (i, item) {
+                    trHTML += '<li class="list-group-item">' + item + '</li>';
+                });
+            trHTML+='</ul>';
+
+               $('#wordcountstats').append(trHTML);
+
+
+            console.log("SUCCESS : ", response);
+            $("#btnSubmit2").prop("disabled", false);
+
+        },
+        error: function (e) {
+
+            $("#fileListResult").text(e.responseText);
+            console.log("ERROR : ", e);
+            $("#btnSubmit2").prop("disabled", false);
+
+        }
+    });
+}
+
+    function fire_ajax_SubmitClearResults() {
+        $("#btnSubmitClearResults").prop("disabled", true);
         $.ajax({
             type: "GET",
-            enctype: 'multipart/form-data',
-            url: "http://localhost:8833/fileuploadservice/api/getFileList",
-            // url: "/api/upload/multi",
-            data: data,
-            //http://api.jquery.com/jQuery.ajax/
-            //https://developer.mozilla.org/en-US/docs/Web/API/FormData/Using_FormData_Objects
-            processData: false, //prevent jQuery from automatically transforming the data into a query string
-            contentType: false,
-            cache: false,
-            timeout: 600000,
+            url: "http://localhost:8855/wordcounterservice/api/getClearAllStatus",
+            jsonpCallback: 'getClearAllStatus',
+            dataType: 'jsonp',
+
             success: function (data) {
 
-                $("#result2").text(data);
-                console.log("SUCCESS : ", data);
-                $("#btnSubmit2").prop("disabled", false);
 
+
+                $("#getResultDiv5").text(data);
+                console.log("SUCCESS : ", data);
+                $("#btnSubmitClearResults").prop("disabled", false);
+
+                //location.reload();
             },
             error: function (e) {
 
-                $("#result2").text(e.responseText);
+                $("#getResultDiv5").text(e.responseText);
                 console.log("ERROR : ", e);
-                $("#btnSubmit2").prop("disabled", false);
+                $("#btnSubmitClearResults").prop("disabled", false);
 
             }
         });
 
+    }
+
+
+    function fire_ajax_getMapToSortedListStatus() {
+
+        $("#btnSubmitResultsToListTop").prop("disabled", true);
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8855/wordcounterservice/api/getMapToSortedListStatus",
+            jsonpCallback: 'getMapToSortedListStatus',
+            dataType: 'jsonp',
+
+            success: function (response) {
+
+                var trHTML = '<ul class="list-group">';
+                $.each(response, function (i, item) {
+                    var words = item.split("      ");
+                    trHTML += '<li class="list-group-item justify-content-between">' + words[1] + '<span class="badge badge-default badge-pill">' + words[0] + '</span></li>';
+                });
+                trHTML+='</ul>';
+
+                $('#wordcountstatsEnhanced').append(trHTML);
+
+                console.log("SUCCESS : ", response);
+                $("#btnSubmitResultsToListTop").prop("disabled", false);
+            },
+            error: function (e) {
+
+                $("#getResultDiv7").text(e.responseText);
+                console.log("ERROR : ", e);
+                $("#btnSubmitResultsToListTop").prop("disabled", false);
+
+            }
+        });
+    }
+
+function fire_ajax_getWordCountProcessStatus() {
+
+    $("#btnSubmitWordCountProcessStatus").prop("disabled", true);
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8855/wordcounterservice/api/getWordCountProcessStatus",
+        jsonpCallback: 'getWordCountProcessStatus',
+        dataType: 'jsonp',
+
+        success: function (response) {
+
+            $('#getResultDivWordCountProcessStatus').append(response);
+
+            console.log("SUCCESS : ", response);
+            $("#btnSubmitWordCountProcessStatus").prop("disabled", false);
+        },
+        error: function (e) {
+
+            $("#getResultDivWordCountProcessStatus").text(e.responseText);
+            console.log("ERROR : ", e);
+            $("#btnSubmitWordCountProcessStatus").prop("disabled", false);
+
+        }
+    });
 }
+
+function fire_ajax_getResultOutputToFileStatus() {
+
+    $("#btnSubmitWriteResultsToFile").prop("disabled", true);
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:8855/wordcounterservice/api/getResultOutputToFileStatus",
+        jsonpCallback: 'getResultOutputToFileStatus',
+        dataType: 'jsonp',
+
+        success: function (response) {
+
+            $('#getResultDivgetResultOutputToFileStatus').append(response);
+
+            console.log("SUCCESS : ", response);
+            $("#btnSubmitWriteResultsToFile").prop("disabled", false);
+        },
+        error: function (e) {
+
+            $("#getResultDivgetResultOutputToFileStatus").text(e.responseText);
+            console.log("ERROR : ", e);
+            $("#btnSubmitWriteResultsToFile").prop("disabled", false);
+
+        }
+    });
+}
+

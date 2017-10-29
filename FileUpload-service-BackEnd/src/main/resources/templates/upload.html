@@ -5,13 +5,18 @@
 <h1>Spring Boot - Multiple file upload example - AJAX</h1>
 
 <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
-    <input type="text" name="extraField"/><br/><br/>
     <input type="file" name="files" multiple="multiple"/><br/><br/>
     <input type="submit" value="Submit" id="btnSubmit"/>
 </form>
+
 <form method="POST" id="fileUploadForm2">
     <label type="text" name="extraField" value="get list of files"/><br/><br/>
     <input type="submit" value="Get File List" id="btnSubmit2"/>
+</form>
+
+<form method="POST" id="fileCleanForm">
+    <label type="text" name="extraField" value="Delete all files in working UPLOAD FOLDER"/><br/><br/>
+    <input type="submit" value="Delete File List" id="btnSubmitDelete"/>
 </form>
 
 <h1>Ajax Post Result</h1>
@@ -21,6 +26,11 @@
 <h1>Ajax Post Result (File list)</h1>
 <pre>
     <span id="result2"></span>
+</pre>
+
+<h1>Ajax Post Result (Delete File list)</h1>
+<pre>
+    <span id="deleteResult"></span>
 </pre>
 
 <script type="text/javascript"

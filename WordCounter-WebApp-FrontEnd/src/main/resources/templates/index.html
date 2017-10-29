@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap for My Proj</title>
+    <title>Word Counter Solution</title>
     <!-- Required meta tags -->
     <meta charset="utf-8"> </meta>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,87 +21,141 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-		
 
-<div class="container">
-  <div class="row">
-    
-    <div class="col-md">
-	<h2>Word Counter</h2>
-      </div>
-    </div>
+<div class="container-fluid">
 
-  <div class="row">
-    <div class="col-md-1">
-	      <div class="row justify-content-center">
-        <p class="tag">Maven</p>
-      </div>
-    </div>
-    
-    <div class="col-md-4">
-	<div class="row justify-content-center">
-        <p class="tag">Spring v4: MVC, REST WS</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-	      <div class="row justify-content-center">
-        <p class="tag">Java 8 Lamdas, Multi Threading</p>
-      </div>
-    </div>
-	<div class="col-md-3">
-	      <div class="row justify-content-center">
-        <p class="tag">Bootstrap v4, JQuery, AJAX</p>
-		<a href="http://www.stopsweats.org">Bootstrap v4</a>
-      </div>
-    </div>
-    <div class="col-md-4">
-	      <div class="row justify-content-center">
-        <p class="tag">Docker, Docker Compose</p>
-      </div>
-	</div>  
-  </div>
-  
 
-  
-  <div class="row">
-      <div class="col-md-4">
-      <div class="row justify-content-center"><div class="box shadow">1 of 3 Step - Select files and Upload,2 of 3 Step - Run Word Counter,3 of 3 Step - Display Results</div></div>
-    </div>
-      <div class="col-md-4">
-      <div class="row justify-content-center">
-        <div class="card shadow-nohover">
-          <div class="card-header"><h5 class="card-title">Uploaded Files</h5></div>
-          <div class="card-block"><p class="card-text">kvm.txt</p></div>
-          <div class="card-block"><p class="card-text">test.txt</p></div>
-          <div class="card-block"><p class="card-text">test.txt</p></div>
-          <div class="card-block"><p class="card-text">test.txt</p></div>
-          
+
+    <div class="row">
+
+        <div class="col-7 col-md-7">
+            <h2>Word Counter Solution - Front End</h2>
+            <small id="fileHelpWordCounter" class="form-text text-muted">This is Word Counter Solution. 3 Spring Boot applications: 2 REST Web Services and 1 Web Client. Tasks: Upload files, process and observe the results.</small>
         </div>
-      </div>
-    </div>
-	 <div class="col-md-4">
-      <div class="row justify-content-center">
-        <div class="card shadow-nohover">
-          <div class="card-header"><h5 class="card-title">Word Statistical Data (TOP20)</h5></div>
-          <div class="card-block"><p class="card-text">kvm.txt</p></div>
-          <div class="card-block"><p class="card-text">test.txt</p></div>
-          <div class="card-block justify-content-between">
-			<p class="card-text badge badge-pill">reeed.txt</p>
-			<span class="badge badge-default badge-pill">14</span>
-		  </div>
-          <div class="card-block justify-content-between">
-			<p class="card-text badge badge-pill">reeeeeeeeeeeeed.txt</p>
-			<span class="badge badge-default badge-pill">14</span>
-		  </div>
-          <div class="card-block justify-content-between">
-			<p class="card-text badge ">abracadabra6546546754.txt</p>
-			<span class="badge badge-default badge-pill">14</span>
-		  </div>
+        <div class="col col-md-auto">
+            1 of 3 Step - Select files and Upload<br/>2 of 3 Step - Run Word Counter<br/>3 of 3 Step - Display Results
         </div>
-      </div>
     </div>
 
-  </div>
+    <div class="row">
+
+        <div class="col-md-5">
+            <div class="row justify-content-center">
+                <p class="tag">Spring v4: MVC, REST WS; Bootstrap v4, JQuery, AJAX</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row justify-content-center">
+                <p class="tag">Java 8 Lamdas, Multi Threading</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row justify-content-center">
+                <p class="tag">Docker, Docker Compose</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-3 col-md-3">
+            <h3>Word Counter - File Upload REST WS Section</h3>
+            <small id="fileHelpWordCounter1" class="form-text text-muted">This is Word Counter Solution. File Upload for text processing.<br/>API:<br/>/api/getFileList<br/>/upload/multi</small>
+        </div>
+        <div class="col-5 col-md-5">
+            <form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+                <div class="form-group">
+                    <label for="exampleInputFile">File(s) input</label>
+                    <input type="file" class="btn btn-primary" id="exampleInputFile" name="files" multiple="multiple" aria-describedby="fileHelp"/>
+                    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                    <button id="btnSubmit" type="submit" class="btn btn-primary" style="margin:10px 0px 10px 0px;">Submit</button>
+                </div>
+            </form>
+            <label type="text" name="extraField" value="get list of files"/>
+            <button id="btnSubmit2" type="submit" class="btn btn-primary" style="margin:10px 0px 10px 0px;">Get File List</button>
+
+            <small id="fileListResult" class="form-text text-muted">Files:</small>
+
+        </div>
+        <div class="col-4 col-md-4">
+
+            <div class="card shadow-nohover">
+                <div class="card-header"><h5 class="card-title">Uploaded Files (DEMO ONLY!)</h5></div>
+                <div class="card-block"><p class="card-text">kvm.txt</p></div>
+                <div class="card-block"><p class="card-text">test1.txt</p></div>
+                <div class="card-block"><p class="card-text">test2.txt</p></div>
+                <div class="card-block"><p class="card-text">test3.txt</p></div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-md-3">
+            <h3>Word Counter - File processing REST WS Section</h3>
+            <small id="fileHelpWordCounter2" class="form-text text-muted">This is Word Counter Solution. File multithreaded processing and word counter.<br/>API:<br/>/api/getWordCountProcessStatus<br/>/api/getMapToSortedListStatus<br/>/api/getResultOutputToFileStatus<br/>/api/getClearAllStatus</small>
+        </div>
+        <div class="col-5 col-md-5">
+
+                    <label type="text" name="extraField" value="get list of files"/>
+                    <button id="btnSubmitWordCountProcessStatus" type="submit" class="btn btn-primary" style="margin:10px 0px 10px 0px;">Start file processing</button>
+            <small id="fileHelpWordCounter3" class="form-text text-muted">From all files in uploaded folder, using thread per file, generates main data structure - <b>ConcurrentHashMap</b></small>
+
+            <div id="getResultDivWordCountProcessStatus" style="margin:10px 10px 10px 15px;">
+                <ul class="list-group">
+                </ul>
+            </div>
+
+            <label type="text" name="extraField" value="get list of files"/>
+            <button id="btnSubmitWriteResultsToFile" type="submit" class="btn btn-primary" style="margin:10px 0px 10px 0px;">Results To File</button>
+            <small id="fileHelpWordCounter6" class="form-text text-muted">This is Word Counter Solution. Results exported to file <b>results.txt</b>. Result is top 20 most popular words. Top quantity is hardcoded as TOP_RECORD_COUNT.</small>
+            <div id="getResultDivgetResultOutputToFileStatus" style="margin:10px 10px 10px 15px;">
+                <ul class="list-group">
+                </ul>
+            </div>
+
+            <label type="text" name="extraField" value="list of top words"/>
+            <button id="btnSubmitResultsToListTop" type="submit" class="btn btn-primary" style="margin:10px 0px 10px 0px;">List of TOP words</button>
+            <small id="fileHelpWordCounter7" class="form-text text-muted">List of top 20 words. Results are displayed below.</small>
+            <div id="getResultDiv7" style="margin:10px 10px 10px 15px;">
+                <ul class="list-group">
+                </ul>
+            </div>
+
+            <label type="text" name="extraField" value="get list of files"/>
+            <button id="btnSubmitClearResults" type="submit" class="btn btn-primary" style="margin:10px 0px 10px 0px;">Clear Results</button>
+            <small id="fileHelpWordCounter5" class="form-text text-muted">Execute to start from the beginning. Deletes all uploaded files and NULLs all datastructures.</small>
+            <div id="getResultDiv5" style="margin:10px 10px 10px 15px;">
+                <ul class="list-group">
+                </ul>
+            </div>
+        </div>
+        <div class="col-4 col-md-4">
+            <div class="card shadow-nohover">
+                <div class="card-header"><h5 class="card-title">Word Data (TOP 5) (DEMO ONLY!)</h5></div>
+                <div class="card-block"><p class="card-text">kvm.txt</p></div>
+                <div class="card-block"><p class="card-text">test.txt</p></div>
+                <div class="card-block justify-content-between">
+                    <p class="card-text badge badge-pill">reeed.txt</p>
+                    <span class="badge badge-default badge-pill">14</span>
+                </div>
+                <div class="card-block justify-content-between">
+                    <p class="card-text badge badge-pill">reeeeeeeeeeeeed.txt</p>
+                    <span class="badge badge-default badge-pill">14</span>
+                </div>
+                <div class="card-block justify-content-between">
+                    <p class="card-text badge ">abracadabra6546546754.txt</p>
+                    <span class="badge badge-default badge-pill">14</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
   
   <div class="row">
 
@@ -111,125 +165,30 @@
 	      <div class="col-md-4">
       <div class="row justify-content-center">Word Statistics</div>
     </div>
-  </div>
-
-  <div class="row">
-
-
-  <div class="col-md-4 shadow-nohover">
-  <ul class="list-group">
-  <li class="list-group-item">Cras justo odio</li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
-</ul>
-
 
   </div>
 
-    <div class="col-md-4">
-  <ul class="list-group">
-  <li class="list-group-item justify-content-between">
-    Cras justo odio
-    <span class="badge badge-default badge-pill">14</span>
-  </li>
-  <li class="list-group-item justify-content-between">
-    Dapibus ac facilisis in
-    <span class="badge badge-default badge-pill">2</span>
-  </li>
-  <li class="list-group-item justify-content-between">
-    Morbi leo risus
-    <span class="badge badge-default badge-pill">1</span>
-  </li>
-  </ul>
+    <div class="row">
+      <div id="wordcountstats" class="col-md-4 shadow-nohover">
+      </div>
+      <div id="wordcountstatsEnhanced" class="col-md-4">
+      </div>
   </div>
-  
-  </div>
-  
-  </div>
-  
-  <div class="row">
-  <table>
-  <thead>
-    <tr class="d-flex">
-      <th class="col-3">3 columns wide header</th>
-      <th class="col-sm-5">5 columns wide header</th>
-      <th class="col-sm-4">4 columns wide header</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr class="d-flex">
-      <th class="col-3">3 columns wide content</th>
-      <th class="col-sm-5">5 columns wide content</th>
-      <th class="col-sm-4">4 columns wide content</th>
-    </tr>
-  </tbody>
-</table>
 
 
-
-
-
-
-
-  </div>
-  
-  <div>
-<ul class="list-group">
-  <li class="list-group-item">Cras justo odio</li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
-</ul>
-</div>
-
-  
-  <div>
-    <table class="table table-bordered">
-
-	<thead>
-     <tr>
-           <th class="w-25">25</th>
-           <th class="w-50">50</th>
-           <th class="w-25">25</th>
-     </tr>
-</thead>
-    <tbody>
-        <tr>
-            <td>123</td>
-            <td>456</td>
-            <td>789</td>
-        </tr>
-    </tbody>
-</table>
-
-  
-</div>
-
-<div style="outline: 1px solid orange;">
-    <table class="table table-bordered">
-
-
-<thead>
-        <tr class="row">
-            <th class="col-sm-3">3 columns wide</th>
-            <th class="col-sm-5">5 columns wide</th>
-            <th class="col-sm-4">4 columns wide</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>123</td>
-            <td>456</td>
-            <td>789</td>
-        </tr>
-    </tbody>
-</table>
+    <div class="row">
+        <h5>Ajax Post Result</h5>
+        <pre>
+            <span id="result"></span>
+        </pre>
+    </div>
 
 </div>
 
+
+    <script type="text/javascript"
+            src="webjars/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
