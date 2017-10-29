@@ -1,0 +1,31 @@
+version: '3'  # version of compose format 
+services:
+  fileupload-service:
+    build: ./FileUpload-service-BackEnd  # path is relative to docker-compose.yml localtion
+    volumes:
+      - ./AppData:/wordcounter/uploads
+      #- .:/wordcounter/uploads
+      #- type: volume 
+      #  source: wordcounterfilecontainer
+      #  target: /wordcounter/uploads
+      #  volume:
+      #    nocopy: true
+    ports:
+      - 8833:8833  # host:container
+  wordcounter-service:
+    build: ./WordCounter-service-BackEnd  # path is relative to docker-compose.yml localtion
+    volumes:
+      - ./AppData:/wordcounter/uploads
+      #- wordcounterfilecontainer2:/wordcounter/uploads
+    ports:
+      - 8855:8855 
+  wordcounter-web:
+    build: ./WordCounter-WebApp-FrontEnd  # path is relative to docker-compose.yml localtion
+    volumes:
+      - ./AppData:/wordcounter/uploads
+      # - wordcounterfilecontainer2:/wordcounter/uploads
+    ports:
+      - 8877:8877
+# volumes:
+#    wordcounterfilecontainer2:
+#       external: true # it means to store data to the host machine
