@@ -13,6 +13,7 @@ hs_err_pid*
 
 # IDE files and folder
 *.imp
+*.iml
 .idea/
 target/
 AppData/
