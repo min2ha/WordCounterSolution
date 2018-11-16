@@ -103,7 +103,9 @@ docker-compose up
 After docker-compose was executed sucessfully, you should be able to test:
 
 http://localhost:8833/fileuploadservice/api
+
 http://localhost:8855/wordcounterservice/api
+
 http://localhost:8877/wordcounterwebapp
 
 
