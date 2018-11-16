@@ -1,10 +1,20 @@
-# Project Title
+# Word Counter Solution
 
-One Paragraph of project description goes here
+This is my demo project consisting of 3 parts (2 REST services and 1 Spring Boot Web Application).
+
+It’s purpose is to demonstrate my knowledge of technologies listed below:
+
+•	Spring Boot (Front End)
+•	2 REST services
+•	Java 8 Lambda
+•	Docker (Dockerfile)
+•	Docker Composer
+
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### Prerequisites
 
