@@ -1,6 +1,6 @@
 # Word Counter Solution
 
-| This is my demo project of parralel file reading and processing.
+> This is my demo project of parralel file reading and processing.
 
 Select Top 20 most frequent words within all files.
 
