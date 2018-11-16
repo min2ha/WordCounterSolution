@@ -1,15 +1,46 @@
 # Word Counter Solution
 
 This is my demo project of parralel file reading and processing.
-It consists of 3 parts (2 REST services and 1 Spring Boot Web Application).
+It consists of 3 parts:
+* File UploadS ervice (REST WS (Back-End))
+* Word Counter Service (REST WS (Back-End))
+* Spring Boot Web App + Boostrap (Front-End)
+
+
+Docker-compose variantas, 'susibildinus' 
+viskas pasileidzia naudojant 3 portus (apjungus su atitinkamu kontekstu):
+
+Realizuota siek tiek ktaip - t.y. top 20 dazniausiai naudojamu zodziu visuose failuose.
+Ideja - 1 failas - 1 Thread'as, visi jie irasineja i ta pati ConcurrentHashMap<String, LongAdder>
+
+1. Reikia uploadinti tekstinius failus
+2. failu sarasa galima perziureti paspaudus get list ir nuvaziavus i apacia (desineje yra tik demo dezes nes reikejo ivairesnio/idomesnio vaizdo) 
+
+3. reikia ivykdyti failu apdorojima ir sukelima i MAP'a
+4. galima isvesti i fail results.txt (ihardkodintas)
+5. galima isvesti i apacioje, lygiagreciai failu sarasui esanti kita sarasa desiniau
+6. galima panaikinti eksperimenta ir istrinti failus
+
+
 
 It’s purpose is to demonstrate my knowledge of technologies listed below:
 
-* Spring Boot (Front End)
+* Git multi-module project
+* Spring Boot, Bootstrap, JQuery (Front End)
 * 2 REST services
 *	Java 8 Lambda
 *	Dockerfile file (to run on Docker)
 *	Docker Composer file (to Docker Composer)
+
+
+http://localhost:8833/fileuploadservice/api
+http://localhost:8855/wordcounterservice/api
+http://localhost:8877/wordcounterwebapp
+
+
+Valdoma per Web interfeisa
+http://localhost:8877/wordcounterwebapp
+ 
 
 
 ## Getting Started
@@ -80,6 +111,18 @@ Add additional notes about how to deploy this on a live system
 ```
 docker-compose up
 ```
+
+## Running
+
+After docker-compose was executed sucessfully, you should be able to test:
+
+http://localhost:8833/fileuploadservice/api
+http://localhost:8855/wordcounterservice/api
+http://localhost:8877/wordcounterwebapp
+
+
+Manage over Front End Web App:
+http://localhost:8877/wordcounterwebapp
 
 
 ## Built With
