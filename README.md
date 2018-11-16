@@ -20,7 +20,7 @@ This multi-module project consists of 3 separate parts:
 * Spring Boot Web App + Boostrap (Front-End)
 
 
-1. Upload text failes (multi-file upload)
+1. Upload text files (multi-file upload)
 2. List of files could be seen if pressed get list and go to the bottom (on the right side demo boxes for more attractive view) 
 
 It’s purpose is to demonstrate my knowledge of technologies listed below:
