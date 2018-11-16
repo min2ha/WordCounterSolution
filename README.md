@@ -1,4 +1,4 @@
-# Word Counter Solution
+# Parallel Word Counter
 
 > This is my simplified demo project of ***parralel file reading and processing***.
 
