@@ -75,6 +75,11 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
+```
+docker-compose up
+```
+
+
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
