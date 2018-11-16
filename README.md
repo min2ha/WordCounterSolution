@@ -23,11 +23,11 @@ To test the project, the sw listed bellow need to be installed first:
 
 
 
-- 1. Java JDK 8 (or higher)
-- 2. git client
-- 3. maven build tool
-- 4. docker
-- 5. docker-composer
+ 1. Java JDK 8 (or higher)
+ 2. git client
+ 3. maven build tool
+ 4. docker
+ 5. docker-composer
 
 ```
 Give examples
