@@ -1,6 +1,6 @@
 # Word Counter Solution
 
-> This is my demo project of **parralel file reading and processing**.
+> This is my simplyfied demo project of **parralel file reading and processing**.
 > Objective is to **select Top 20 most frequent words** within all files ASAP.
 > Idea:  1 text file for 1 Thread 
 
@@ -106,10 +106,7 @@ http://localhost:8833/fileuploadservice/api
 
 http://localhost:8855/wordcounterservice/api
 
-http://localhost:8877/wordcounterwebapp
-
-
-Manage over Front End Web App:
+Management should be done over Front End Web App:
 http://localhost:8877/wordcounterwebapp
 
 
