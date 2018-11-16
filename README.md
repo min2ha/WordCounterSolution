@@ -1,8 +1,8 @@
 # Word Counter Solution
 
-This is my demo project of parralel file reading and processing.
+| This is my demo project of parralel file reading and processing.
 
-Top 20 most frequent words within all files.
+Select Top 20 most frequent words within all files.
 
 Idea:  1 text fail for 1 Thread 
 All are written to the same ConcurrentHashMap<String, LongAdder>
