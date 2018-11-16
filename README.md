@@ -19,7 +19,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To test the project, the sw listed bellow need to be installed first:
+
+0. JDK 8 (or higher)
+1. git client
+2. maven build tool
+3. docker
+4. docker-composer
 
 ```
 Give examples
@@ -29,13 +35,7 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-To test the project, the sw listed bellow need to be installed first:
 
-0. JDK 8 (or higher)
-1. git client
-2. maven build tool
-3. docker
-4. docker-composer
 
 Clone project repo on test VM (or anywhere):
 
