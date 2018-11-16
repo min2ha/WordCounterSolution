@@ -2,9 +2,10 @@
 
 > This is my demo project of parralel file reading and processing.
 
-Select Top 20 most frequent words within all files.
+> Select Top 20 most frequent words within all files.
 
-Idea:  1 text fail for 1 Thread 
+> Idea:  1 text fail for 1 Thread 
+
 All are written to the same 
 ```
 ConcurrentHashMap<String, LongAdder>
@@ -39,8 +40,6 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 To test the project, the sw listed bellow need to be installed first:
-
-
 
  1. Java JDK 8 (or higher)
  2. git client
