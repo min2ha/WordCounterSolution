@@ -5,7 +5,10 @@
 Select Top 20 most frequent words within all files.
 
 Idea:  1 text fail for 1 Thread 
-All are written to the same ConcurrentHashMap<String, LongAdder>
+All are written to the same 
+```
+ConcurrentHashMap<String, LongAdder>
+```
 
 Processed files moved to separate folder.
 
