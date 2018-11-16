@@ -6,7 +6,7 @@
 
 > Idea:  ***1 text file per 1 Thread***
 
-All are stored at the same Map:
+All ready for processing text files are stored at the same Map:
 ```
 ConcurrentHashMap<String, LongAdder>
 ```
