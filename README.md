@@ -127,9 +127,6 @@ git add
 git commit
 ```
 
-@min2ha :+1: This PR looks great - it's ready to merge! :shipit:
-
-
 
 ## Versioning
 
@@ -138,6 +135,8 @@ We use [github](https://github.com) for versioning. For the versions available, 
 ## Authors
 
 * **Mindaugas Vidmantas** - *Initial work* - [min2ha](https://github.com/min2ha)
+
+@min2ha :+1: It's ready to merge! :shipit:
 
 ## License
 
