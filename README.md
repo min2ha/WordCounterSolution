@@ -1,7 +1,7 @@
 # Word Counter Solution
 
-> This is my demo project of parralel file reading and processing.
-> Objective is to select Top 20 most frequent words within all files ASAP.
+> This is my demo project of **parralel file reading and processing**.
+> Objective is to **select Top 20 most frequent words** within all files ASAP.
 > Idea:  1 text file for 1 Thread 
 
 All are stored at the same Map:
@@ -11,9 +11,8 @@ ConcurrentHashMap<String, LongAdder>
 
 Processed files moved to separate folder.
 
-Markup :  - - - -
 
-This multi-module project consists of 3 separate parts:
+This **multi-module project consists of 3 separate parts**:
 > * File Upload Service (REST WS (Back-End))
 > * Word Counter Service (REST WS (Back-End))
 > * Spring Boot Web App + Boostrap (Front-End)
