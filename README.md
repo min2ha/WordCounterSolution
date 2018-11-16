@@ -28,6 +28,13 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
+To test the project, the sw listed bellow need to be installed first:
+
+1. git client
+2. maven build tool
+3. docker
+4. docker-composer
+
 Say what the step will be
 
 ```
