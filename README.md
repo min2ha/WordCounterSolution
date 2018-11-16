@@ -5,7 +5,7 @@
 
 >>Idea:  1 text file for 1 Thread 
 
-All are written to the same 
+All are stored at the same Map:
 ```
 ConcurrentHashMap<String, LongAdder>
 ```
