@@ -21,6 +21,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 To test the project, the sw listed bellow need to be installed first:
 
+Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
+
 Markup : 1. Java JDK 8 (or higher)
          2. git client
          3. maven build tool
