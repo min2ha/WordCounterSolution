@@ -21,11 +21,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 To test the project, the sw listed bellow need to be installed first:
 
-0. JDK 8 (or higher)
-1. git client
-2. maven build tool
-3. docker
-4. docker-composer
+Markup : 1. Java JDK 8 (or higher)
+         2. git client
+         3. maven build tool
+         4. docker
+         5. docker-composer
 
 ```
 Give examples
