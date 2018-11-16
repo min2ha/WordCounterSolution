@@ -4,11 +4,11 @@ This is my demo project consisting of 3 parts (2 REST services and 1 Spring Boot
 
 It’s purpose is to demonstrate my knowledge of technologies listed below:
 
-•	Spring Boot (Front End)
-•	2 REST services
-•	Java 8 Lambda
-•	Docker (Dockerfile)
-•	Docker Composer
+* Spring Boot (Front End)
+* 2 REST services
+*	Java 8 Lambda
+*	Docker (Dockerfile)
+*	Docker Composer
 
 
 ## Getting Started
