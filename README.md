@@ -36,10 +36,10 @@ To test the project, the sw listed bellow need to be installed first:
 3. docker
 4. docker-composer
 
-Say what the step will be
+Clone project repo on localhost:
 
 ```
-Give the example
+git clone https://github.com/min2ha/WordCounterSolution.git
 ```
 
 And repeat
