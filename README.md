@@ -4,7 +4,7 @@
 
 > Select Top 20 most frequent words within all files.
 
-> Idea:  1 text fail for 1 Thread 
+> Idea:  1 text file for 1 Thread 
 
 All are written to the same 
 ```
@@ -126,6 +126,10 @@ git status
 git add
 git commit
 ```
+
+@min2ha :+1: This PR looks great - it's ready to merge! :shipit:
+
+
 
 ## Versioning
 
