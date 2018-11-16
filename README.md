@@ -42,10 +42,10 @@ Clone project repo on localhost:
 git clone https://github.com/min2ha/WordCounterSolution.git
 ```
 
-And repeat
+Build project:
 
 ```
-until finished
+mvn clean package
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
