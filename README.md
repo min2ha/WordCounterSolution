@@ -93,6 +93,13 @@ docker-compose up
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+
 ## Versioning
 
 We use [github](https://github.com) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
