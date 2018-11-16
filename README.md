@@ -1,6 +1,7 @@
 # Word Counter Solution
 
-This is my demo project consisting of 3 parts (2 REST services and 1 Spring Boot Web Application).
+This is my demo project of parralel file reading and processing.
+It consists of 3 parts (2 REST services and 1 Spring Boot Web Application).
 
 It’s purpose is to demonstrate my knowledge of technologies listed below:
 
