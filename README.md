@@ -11,7 +11,9 @@ ConcurrentHashMap<String, LongAdder>
 
 Processed files moved to separate folder.
 
-It consists of 3 parts:
+Markup :  - - - -
+
+This multi-module project consists of 3 separate parts:
 * File UploadS ervice (REST WS (Back-End))
 * Word Counter Service (REST WS (Back-End))
 * Spring Boot Web App + Boostrap (Front-End)
