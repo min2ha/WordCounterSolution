@@ -9,7 +9,7 @@ It’s purpose is to demonstrate my knowledge of technologies listed below:
 * 2 REST services
 *	Java 8 Lambda
 *	Dockerfile file (to run on Docker)
-*	Docker Composer
+*	Docker Composer file (to Docker Composer)
 
 
 ## Getting Started
