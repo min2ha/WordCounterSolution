@@ -1,7 +1,7 @@
 # Word Counter Solution
 
 > This is my demo project of parralel file reading and processing.
->> Select Top 20 most frequent words within all files.
+>> Objective is select Top 20 most frequent words within all files.
 >> Idea:  1 text file for 1 Thread 
 
 All are written to the same 
